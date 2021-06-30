@@ -1,0 +1,83 @@
+# OSX
+#
+.DS_Store
+.env
+.android
+.VirtualBox
+.electron
+.emulator
+.bash_history
+android
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Bundle artifact
+*.jsbundle
+
+# CocoaPods
+/ios/Pods/
+.vscode/launch.json
+__tests__/App-test.js
+__tests__/zadanie.js
+ios/Podfile
+ios/Ubicado/AppDelegate.h
+ios/Ubicado/AppDelegate.m
+ios/Ubicado/Info.plist
+ios/Ubicado/LaunchScreen.storyboard
+ios/Ubicado/main.m
+ios/Ubicado/Images.xcassets/Contents.json
+ios/Ubicado/Images.xcassets/AppIcon.appiconset/Contents.json
+ios/Ubicado-tvOS/Info.plist
+ios/Ubicado-tvOSTests/Info.plist
+ios/Ubicado.xcodeproj/project.pbxproj
+ios/Ubicado.xcodeproj/xcshareddata/xcschemes/Ubicado-tvOS.xcscheme
+ios/Ubicado.xcodeproj/xcshareddata/xcschemes/Ubicado.xcscheme
+ios/UbicadoTests/Info.plist
+ios/UbicadoTests/UbicadoTests.m
